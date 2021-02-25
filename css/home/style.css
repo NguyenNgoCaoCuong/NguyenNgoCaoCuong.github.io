@@ -79,35 +79,53 @@ nav {
     padding: 12px;
 }
 
-nav ul {
+nav >ul {
     list-style: none;
-    width: 450px;
+    width: 520px;
     margin: auto;
 }
 
-nav li {
-    padding: 10px;
+nav >ul>li {
+    padding:10px 20px;
     float: left;
     text-transform: uppercase;
+    position: relative;
 }
-/* nav li::after{
-    content: "fs";
-    width:10px;
-    height: 10px;
-    background-color: orange;
+nav >ul>li::after{
+    content: "";
+    width:6px;
+    height: 6px;
     position: absolute;
-    top:0;
-    left: 0;
+    top:13px;
+    right: 5px;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    border-color: yellow;
+    border-style: solid;
     display: block;
-} */
-nav li:hover{
+}
+nav >ul > li:hover{
     color:orange;
 }
+nav .box{
+    position: absolute;
+    padding:10px 20px;
+    background-color: aliceblue;
+    top:39px;
+   left:0;
+    z-index: 3;
+    visibility: hidden;
+
+}
+nav li:hover .box{
+visibility: visible;
+}
 .slider-container {
-    width: 80%;
+    width: 100%;
     height: 700px;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .slider-img {
@@ -121,6 +139,7 @@ nav li:hover{
     padding:0;
     display: block;
     float: left; 
+    margin-top:-220px;
 }
 
 .slider {
@@ -150,7 +169,7 @@ i.fa.fa-arrow-left {
     position: absolute;
 }
 
-.icon.icon-left {width: 79.5%;top: 46%;position: absolute;font-size: 35px;color: white;}
+.icon.icon-left {width: 100%;top: 46%;position: absolute;font-size: 35px;color: white;}
 
 i.fa.fa-arrow-left {
     float: left;
