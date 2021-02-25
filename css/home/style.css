@@ -1,0 +1,162 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    overflow-x:hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background: black;
+    height: 35px;
+
+}
+
+.text {
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    color: aquamarine;
+    width: 332px;
+    margin-left: 13%;
+    float: left;
+    line-height: 35px;
+}
+
+.icon {
+    width: 160px;
+    margin-right: 13%;
+    float: right;
+}
+
+.icon ul {
+    line-height: 35px;
+    list-style: none;
+}
+
+.icon ul li {
+    float: right;
+    width: 21px;
+    font-size: 13px;
+    color:rgb(155, 140, 140);
+    cursor: pointer;
+}
+.icon ul li:hover{
+color:white;
+}
+.back-color {
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+
+.name {
+    width: 400px;
+    margin: 88px auto;
+    text-align: center;
+}
+.name h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.name hr {
+    width: 47px;
+    display: inline-block;
+    margin: 4px 7px;
+}
+
+.name b {color: darkgray;height: 30px;}
+nav {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #e4d1d1;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    width: 450px;
+    margin: auto;
+}
+
+nav li {
+    padding: 10px;
+    float: left;
+    text-transform: uppercase;
+}
+/* nav li::after{
+    content: "fs";
+    width:10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+} */
+nav li:hover{
+    color:orange;
+}
+.slider-container {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-img {
+    width: 100%;
+    
+}
+
+.slider img {
+    width: 25%; 
+    margin:0;
+    padding:0;
+    display: block;
+    float: left; 
+}
+
+.slider {
+    width: 400%; 
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    0%,90%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
+}
+.click {
+}
+
+i.fa.fa-arrow-left {
+    float: left;
+    position: absolute;
+}
+
+.icon.icon-left {width: 100%;top: 46%;position: absolute;font-size: 35px;color: white;}
+
+i.fa.fa-arrow-left {
+    float: left;
+}
+
+i.fa.fa-arrow-right {
+    float: right;
+}
