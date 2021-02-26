@@ -308,3 +308,38 @@ section figure:hover img{
 .left-img img {
     width: 100%;
 }
+
+.left-text-infor p{
+    color:gray;
+    margin:10px;
+}
+.left-text-infor p strong{
+    color:rgb(214, 64, 37);
+
+}
+.left-text-infor h3{
+    color:gray;
+    font-style: oblique;
+    margin:15px auto 7px auto;
+}
+.left-text-infor b{
+    color:black;
+    font-size: 25px;
+}
+.left-text-infor h4{
+    color: rgb(180, 158, 158);
+    font-size: 14px;
+    margin-bottom:8px;
+}
+.left-text-infor h4 span{
+    color:rgb(180, 179, 128)
+}
+.left-text{
+    margin:20px auto auto auto;
+    font-family:monospace;
+    font-size: 15px;
+    line-height: 18px;
+}
+.left-text p{
+    margin:15px;
+}
