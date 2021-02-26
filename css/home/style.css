@@ -343,3 +343,42 @@ section figure:hover img{
 .left-text p{
     margin:15px;
 }
+.right{
+    float: right;
+    width:30%;
+}
+.right .right-top {
+    width: 100%;
+    margin:7px;
+    border-top:1px solid red;
+    border-bottom:1px solid red;
+    border-left:1px solid  rgb(197, 185, 185);
+    border-right:1px solid  rgb(197, 185, 185);
+    text-align: center;
+}
+.right .right-top h5{
+padding: 20px;
+color:gray;
+border-bottom: 1px solid rgb(197, 185, 185);
+}
+.right .right-top  img{
+    width:100%;
+    transform: scale(0.7) translateY(-40px);
+}
+.right .right-top p{
+    width:100%;
+    transform: scale(0.7) translateY(-100px);
+    color:rgb(168, 145, 145);
+    font-size:23px;
+}
+.right .right-top h4{
+    transform: scale(0.7) translateY(-60px);
+    border:1px solid rgb(80, 71, 71);
+    font-size: 20px;
+    color:red;
+    cursor: pointer;
+    padding:20px 10px;
+}
+.right .right-top h4:hover{
+    background-color: rgb(162, 182, 162);
+}
