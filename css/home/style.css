@@ -1,7 +1,7 @@
 html,body {
     width: 100%;
     height: 100%;
-    background-color: wheat;
+
     overflow-x:hidden;
 }
 
@@ -17,7 +17,7 @@ header {
 
 }
 
-.text {
+header .text {
     font-family: 'Reggae One', cursive;
     font-size: 20px;
     color: aquamarine;
@@ -115,10 +115,13 @@ nav .box{
    left:0;
     z-index: 3;
     visibility: hidden;
-
+    opacity: 0;
+    width:190px;
+transition: 0.4s;
 }
 nav li:hover .box{
 visibility: visible;
+opacity: 1;
 }
 .slider-container {
     width: 100%;
@@ -169,7 +172,12 @@ i.fa.fa-arrow-left {
     position: absolute;
 }
 
-.icon.icon-left {width: 100%;top: 46%;position: absolute;font-size: 35px;color: white;}
+.icon.icon-left {
+    width: 100%;
+    top: 46%;
+    position: absolute;
+    font-size: 35px;
+    color: white;}
 
 i.fa.fa-arrow-left {
     float: left;
@@ -177,4 +185,126 @@ i.fa.fa-arrow-left {
 
 i.fa.fa-arrow-right {
     float: right;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    padding: 10px 20px;
+    display: block;
+    height: 12px;
+    color: gray;
+}
+.slider-container .text{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    top:45%
+}
+.slider-container .text hr{
+    width: 70px;
+    margin: auto;
+    height: 2px;
+}
+.silder-container .text {
+    position: absolute;
+    top: 10px;
+   
+}
+
+.slider-container .text h4 {
+    font-size: 20px;
+    color:white;
+}
+
+.slider-container .text h2 {
+    font-size: 36px;
+    color:white;
+}
+
+.button {
+    padding: 7px;
+    border: 2px solid white;
+    width: 169px;
+    margin: 10px auto;
+    color:white;
+    transition: 0.7s;
+  cursor: pointer;
+}
+.button:hover{
+    border: 4px solid white;
+}
+section{
+    width: 65%;
+    
+    margin: auto;
+    padding-top: 30px;
+}
+
+section figure{
+    width:33.3333333333333333333333333333333333%;
+    margin:0;
+    float: left;
+    position: relative;
+    overflow:hidden;
+}
+section figure img{
+    width: 100%;
+    height: 220px;
+    display:inline-block;
+    padding:8px;
+transition-delay: 0.4s;
+    box-sizing:content-box;
+    position: relative;
+    box-sizing: border-box;
+}
+section figure .box-border{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    border:3px solid white;
+    z-index: 3;
+    transform: scale(0.8);
+    visibility: hidden;
+    transition: 1.5s;
+    opacity: 0;
+}
+section figure  button{
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    transform: scaleX(0.3) scaleY(0.2);
+    position: absolute;
+    top:0;
+    left:0;
+}
+section figure:hover .box-border{
+    visibility: visible;
+    opacity: 1;
+}
+section figure:hover img{
+    transform: scale(1.1);
+}
+.left {
+    width: 65%;
+    float: left;
+}
+
+.left-text-infor {
+    width: 100%;
+    text-align: center;
+}
+
+.left-text-infor {
+    width: 100%;
+}
+
+.left-img img {
+    width: 100%;
 }
