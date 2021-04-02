@@ -323,13 +323,32 @@
         padding: 30px;
     }
     
+    .confirm .pt-confim.col-md-6.col-sm-12 .icon {
+        top: -30px;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        background-color: #FB5849;
+        border-radius: 50%;
+        position: absolute;
+    }
+    
+    .confirm .pt-confim.col-md-6.col-sm-12 .icon i {
+        display: block;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top: 15px;
+        color: white;
+    }
+    
     .phone {
         background-color: white;
         color: black;
         text-align: center;
         padding: 50px 0 20px 0;
         position: relative;
-        margin: 10px 15px;
+        margin: 0 15px 60px 15px;
+        border-radius: 10px;
     }
     
     .email {
@@ -338,7 +357,9 @@
         color: black;
         text-align: center;
         padding: 50px 0 20px 0;
+        margin: 0 15px 60px 15px;
         position: relative;
+        border-radius: 10px;
     }
     
     .col-md-12.col-sm-12.text-center,
@@ -465,7 +486,30 @@
     /* END FOOTER */
     /* REPONESIVE */
     
-    @media screen and (max-width:768px) {
+    @media screen and (min-width: 320px) {}
+    
+    @media screen and (max-width: 480px) {
+        .menu-it {
+            width: 12%;
+            margin: 0.25%;
+        }
+        #slide-menu {
+            width: 800%;
+        }
+        .icon.col-sm-4.col-md-4 img {
+            width: 40%;
+        }
+        .text-product.col-xs-6 p {
+            font-size: 12px;
+            margin-left: 15px;
+        }
+        .text-product.col-xs-6 h4 {
+            font-size: 16px;
+            margin-left: 15px;
+        }
+    }
+    
+    @media screen and (min-width:481px) and (max-width:768px) {
         .nav.navbar-nav.text-center.navbar-right a {
             line-height: 10px;
             font-size: 15px;
@@ -484,3 +528,5 @@
             margin: 0.25%;
         }
     }
+    
+    @media screen and (min-width: 1024px) {}
