@@ -1,5 +1,9 @@
 $(function() {
-    $('.box').draggable();
-    $('.cl').draggable();
-
+    $('.box').draggable({
+        revert: false
+    });
+    $('.cl').draggable({
+        revert: true
+    });
+    $('body').sortable();
 })
