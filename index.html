@@ -5,428 +5,673 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/home.css">
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <script src="js/home.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- add 'icon-block' snippet in css -->
+    <link rel="shortcut icon" href="https://bookshop.org/assets/favicon-63cb20989e2516343feeab429626798a43afdaa28eeaba777b7e0acde8a25dd2.png" type="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Book Shop</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse" id="home-menu-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button data-toggle="collapse" data-target="#coffe-navbar" class="navbar-toggle">
-                    <span class="icon-bar" style=""></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><img src="https://20167063.github.io/cafe/assets/images/klassy-logo.png" alt=""></a>
-            </div>
-            <div class="collapse navbar-collapse" id="coffe-navbar">
-                <ul class="nav navbar-nav text-center navbar-right">
-                    <li>
-                        <a href="test.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Menu</a>
-                    </li>
-                    <li>
-                        <a href="#master-sheft">Chefs</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown">Features <span class="caret"></span></a>
-                        <ul class="dropdown-menu ">
-                            <li class="text-center">Bánh ngọt</li>
-                            <li class="text-center">Bánh ngọt</li>
-                            <li class="text-center">Bánh ngọt</li>
-                        </ul>
-                    </li>
-                    <li style="color: red;">
-                        <a href="login/login.html"><i class="fa fa-lemon-o" aria-hidden="true"></i>Login</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <div id="slide">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 left-slide">
-                    <h2>KlassyCafe</h2>
-                    <h4>The best experience</h4>
-                    <button class="btn btn-default">Make A Reservation</button>
+    <header>
+        <nav class=" navbar navbar-expand-lg navbar-light">
+            <div class="container-md ">
+                <a class="navbar-brand " href="# "><img src="https://bookshop.org/assets/logo_light-c650cee1761bf7cfee9351767c3e098191eca1aeac77db1455aee5313383f2ef.svg " alt=" "></a>
+                <button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+                <i class="fa fa-align-justify " aria-hidden="true " style="color: white; "></i>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end text-sm-center " id="navbarSupportedContent ">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page " href="# "><i class="fa fa-twitter " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">
+                                <i class="fa fa-instagram " aria-hidden="true "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# " aria-disabled="true ">Find a BookStore</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# " aria-disabled="true ">Browse</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="bill/bill.html" class="nav-link "><img src="https://bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg " alt=" "></a>
+                        </li>
+                        <li>
+                            <a href=" " class="nav-link "><img src="https://bookshop.org/assets/ic_avatar_light-4732507364f796809bc0a7467e9f34b5afc0efbfc0c979913626bafcaf55101f.svg " alt=" "></a>
+                        </li class="nav-item ">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">US</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-8 col-sm-12 right-slide">
-                    <div id="myCarousel" class="carousel slide">
-                        <ol class="carousel-indicators ">
-                            <li class="active " data-slide-to="0 " data-target="#myCarousel "></li>
-                            <li data-slide-to="1 " data-target="#myCarousel "></li>
-                            <li data-slide-to="2 " data-target="#myCarousel "></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="item active "><img src="https://20167063.github.io/cafe/assets/images/slide-02.jpg " alt=" "></div>
-                            <div class="item "><img src="https://20167063.github.io/cafe/assets/images/slide-03.jpg " alt=" "></div>
-                            <div class="item "><img src="https://20167063.github.io/cafe/assets/images/slide-01.jpg " alt=" "></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container text-infor text-center">
+                <h1>Support Local Bookstores. Shop Online with Bookshop.</h1>
+            </div>
+            <div class="hero container">
+                <form class="search"><input type="text" placeholder="Search"><button><img src="https://bookshop.org/assets/ic_search_red-7d1a13a60daff70bb90df7cef4d5255a11c09312ba796317f7b701327183cdaf.svg" alt=""></button></form>
+            </div>
+
+        </section>
+        <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <a href="" class="text-info"><strong>Digital Gift </strong> Cards Available Now! Click Here.</a>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="total-infor text-center">
+            <a href="">$13,577,514.78</a><span class="text-danger">raised for local bookstores</span>
+        </div>
+        <div class="top-img">
+            <img class="w-full" src="https://images-production.bookshop.org/spree/promo_banner_slides/desktop_images/106/original/Gates_HTAACD_2048x600_bookshop.jpg?1619442277" alt="">
+        </div>
+        <div id="main" class="container-md">
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/curators/avatars/10/thumb/Social_media_Icon_alternative.jpg?1573251482" alt="">
+                    <a href="" class="text m-lg-2">
+                        Bookshop.org Best Sellers of the Week
+                    </a>
+                    <a class="more" href="list-category/category.html">VIEW LIST (15 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <a href="view-book/book.html"> <img src="https://images-production.bookshop.org/spree/images/attachments/13244489/product/Goodbye_Again_pb_c.JPG" alt=""></a>
                         </div>
-                        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="about">
-        <div class="container">
-            <div class="about-text col-md-6 col-sm-12">
-                <h3>About us</h3>
-                <h1>We Leave A Delicious <br> Memory For You</h1>
-                <p>Klassy Cafe is one of the <a>best restaurant</a> HTML templates with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template
-                    for commercial purposes.
-                </p>
-                <p>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
-                <div class="row">
-                    <div class="col-xs-4"><img src="https://20167063.github.io/cafe/assets/images/about-thumb-01.jpg" alt=""></div>
-                    <div class="col-xs-4"><img src="https://20167063.github.io/cafe/assets/images/about-thumb-02.jpg" alt=""></div>
-                    <div class="col-xs-4"><img src="https://20167063.github.io/cafe/assets/images/about-thumb-03.jpg" alt=""></div>
-                </div>
-            </div>
-            <div class="about-video col-md-6 col-sm-12">
-                <a href="#"><img src="https://20167063.github.io/cafe/assets/images/about-video-bg.jpg" alt=""></a>
-            </div>
-        </div>
-    </div>
-    <div id="menu" class="bg-info">
-        <div class="container menu-text">
-            <div class="row">
-                <div class="col-md-6 col-sm-12" style="padding-left:30px;">
-                    <h3>OUR MENU</h3>
-                    <h1>Our selection of cakes with quality taste</h1>
-                </div>
-            </div>
-        </div>
+                        <div class="book flex-column">
+                            <a href="view-book/book.html"> <img src="https://images-production.bookshop.org/spree/images/attachments/13175664/product/9780525555216.jpg" alt=""></a>
+                        </div>
+                        <div class="book flex-column">
+                            <a href="view-book/book.html"><img src="https://images-production.bookshop.org/spree/images/attachments/12983274/product/9780525657743.jpg" alt=""></a>
 
-        <div id="slide-menu">
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-01.jpg" alt="">
-                <div class="price">$22</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-02.jpg" alt="">
-                <div class="price">$23</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-03.jpg" alt="">
-                <div class="price">$28</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-04.jpg" alt="">
-                <div class="price">$02</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-05.jpg" alt="">
-                <div class="price">$12</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-01.jpg" alt="">
-                <div class="price">$33</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-03.jpg" alt="">
-                <div class="price">$08</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="menu-it">
-                <img src="https://20167063.github.io/cafe/assets/images/menu-item-05.jpg" alt="">
-                <div class="price">$21</div>
-                <div class="text-info-it">
-                    <h4>Talk</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem explicabo .</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="menu-next">
-
-            </div>
-        </div>
-        <div class="menu-control-item">
-            <span class="glyphicon glyphicon-chevron-left menu-control-prev"></span>
-            <span class="glyphicon glyphicon-chevron-right menu-control-next"></span>
-        </div>
-    </div>
-    <div id="master-sheft">
-        <div class="container">
-            <div class="row">
-                <div class="master-sheft-text col-xm-12 text-center ">
-                    <h4>OUR CHEFS</h4>
-                    <h2>We offer the best ingredients for you</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-4">
-                    <div class="img-sheft text-center">
-                        <div class="img  s1"></div>
-                        <h3>Randy Walker</h3>
-                        <p>Pastry Chef</p>
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422599/product/9780593243626.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13794760/product/9780593465271.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/14175924/product/9780316167581.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422576/product/9781642595253.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13362881/product/9780593138274.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13591008/product/9781250223180.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/1244324/product/9781984820365.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="img-sheft text-center ">
-                        <div class="img s2"></div>
-                        <h3>Randy Walker</h3>
-                        <p>Pastry Chef</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="img-sheft text-center">
-                        <div class="img s3"></div>
-                        <h3>Randy Walker</h3>
-                        <p>Pastry Chef</p>
+                    <div class="button-control">
+                        <div class="pre"><img src="https://bookshop.org/assets/ic_fat_arrow_left-78d4b37e9bbb5fee5ded46062f2acb0558ea2c52e03e1d4cf00fe7c668c48dac.svg" alt=""></div>
+                        <div class="next"><img src="https://bookshop.org/assets/ic_fat_arrow_right-8cd117ef71cad1e27c159d775f4d2d0a806c8f173deb5be52b4a6dacc7fdfa0d.svg" alt=""></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="confirm">
-        <div class="container">
-            <div class="row">
-                <div class="pt-confim col-md-6 col-sm-12">
-                    <h4 style="padding:15px">contect us</h4>
-                    <h2 style="padding:15px">Here yua Can Make A Reservation
-                        <br> Or Just walkin to cafe</h2>
-                    <p style="padding:15px">Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</p>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/curators/avatars/10/thumb/Social_media_Icon_alternative.jpg?1573251482" alt="">
+                    <a href="" class="text m-lg-2">
+                        How to Avoid a Climate Disaster: A Reading List
+                    </a>
+                    <a class="more" href="list-category/category.html">VIEW LIST (10 BOOKS)</a>
+                </div>
+                <div class="list-book-infor">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="phone">
-                                <h4>PhoneNumbers</h4>
-                                <p>080-090-0990</p>
-                                <p>080-090-0990</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="email">
-                                <h4>Email</h4>
-                                <p>nguyenngocaocuong@gmail.com</p>
-                                <p>cuong35228102000@gmail.com</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/4479146/mini/9780385546133.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need</h2>
+                                    <h3 class="author">Bill Gates</h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="email-icon"></div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/13540633/mini/9780593080931.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">The Future We Choose: The Stubborn Optimist's Guide to the Climate Crisis</h2>
+                                    <h3 class="author">
+                                        Christiana Figueres and Tom Rivett-Carnac
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/10827601/mini/9780525563389.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">The Story of More: How We Got to Climate Change and Where to Go from Here</h2>
+                                    <h3 class="author">
+                                        Hope Jahren
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 div-confim">
-                    <div class="f-confim">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 text-center">
-                                <h1>Table Reservation</h1>
+                <div class="list-book-infor">
+                    <div class="row">
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/12578604/mini/9780307277176.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">The Sustainable Economy: The Hidden Costs of Climate Change and the Path to a Prosperous Future</h2>
+                                    <h3 class="author">
+                                        Robert S. Devine
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
                             </div>
-                            <form action="#" class="form-inline">
-                                <div class="col-md-6 col-sm-6"><input type="text" placeholder="Your Name* " class="form-control "></div>
-                                <div class="col-md-6 col-sm-6"> <input type="text" placeholder="Your Email Address " class="form-control "></div>
-                                <div class="col-md-6 col-sm-6"> <input type="text" placeholder="Phone Number* " class="form-control "></div>
-                                <div class="col-md-6 col-sm-6"> <input type="text" placeholder="Number Of Gouests " class="form-control "></div>
-                                <div class="col-md-6 col-sm-6"> <input type="date" placeholder="You Birth Day " class="form-control "></div>
-                                <div class="col-md-6 col-sm-6"><input type="text" placeholder="Breakfast " class="form-control "></div>
-                                <div class="col-md-12 col-sm-12"> <textarea name=" " id=" " rows="10" class="form-control " placeholder="Message "></textarea></div>
-                                <button class="btn btn-lg" class="form-control" style="background-color: #FB5849;"> Submit</button>
-                            </form>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/13144135/mini/9780525435310.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Notes from an Apocalypse: A Personal Journey to the End of the World and Back</h2>
+                                    <h3 class="author">
+                                        Mark O'Connell
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/13540448/mini/9780525656098.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Finding the Mother Tree: Discovering the Wisdom of the Forest</h2>
+                                    <h3 class="author">
+                                        Suzanne Simard
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/affiliate_profiles/profile_images/21072/original/714B0584.jpg?1611575630" alt="">
+                    <a href="" class="text m-lg-2">
+                        Jenna's Mother's Day Picks
+                    </a>
+                    <a class="more">VIEW LIST (8 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
 
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/4149049/product/beloved.png" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/8781241/product/9780399184529.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/14288101/product/9781419741401.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/1216071/product/9780143130338.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/4573726/product/9781631497896.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/671183/product/9780062699770.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13901263/product/9781101947807.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/affiliate_profiles/profile_images/1264/original/9DF71EA6-EE5A-4ED1-ACCB-BCFC7D3D7090.jpg?1582907067" alt="">
+                    <a href="" class="text m-lg-2">
+                        Moms Don't Have Time To Read Books 2021
+                    </a>
+                    <a class="more">VIEW LIST (64 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13383014/product/9781501190247.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12961691/product/9781982117726.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13453336/product/9781510765962.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/14288087/product/9780306924026.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13014728/product/9781525895982.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13560069/product/9781684580378.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422576/product/9781642595253.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13012838/product/9781400223336.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13078414/product/9781642937091.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/curators/avatars/10/thumb/Social_media_Icon_alternative.jpg?1573251482" alt="">
+                    <a href="" class="text m-lg-2">
+                        Simon and Schuster celebrates Mother's Day!
+                    </a>
+                    <a class="more">VIEW LIST (10 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12875172/product/9781982123895.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13383007/product/9781501171345.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12988812/product/9781982149109.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12057122/product/9781439192016.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/4137460/product/9781476753836.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12983998/product/9781982140168.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12898070/product/9781501165191.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12528594/product/9781982132460.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/affiliate_profiles/profile_images/24596/original/Author_Gurwitch_publicity_credit_David_Stewart.jpg?1618678930" alt="">
+                    <a href="" class="text m-lg-2">
+                        Books that kept me from doing stupid things at 4AM during the pandemic
+                    </a>
+                    <a class="more">VIEW LIST (6 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12958215/product/9781640094475.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12958218/product/9781640093362.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12870356/product/9781250759665.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12524303/product/9780062978790.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12465641/product/separation.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422496/product/Better_Luck_Next_Time.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422576/product/9781642595253.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/curators/avatars/10/thumb/Social_media_Icon_alternative.jpg?1573251482" alt="">
+                    <a href="" class="text m-lg-2">
+                        Bookshop.org Best Sellers of the Week
+                    </a>
+                    <a class="more">VIEW LIST (15 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13244489/product/Goodbye_Again_pb_c.JPG" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13175664/product/9780525555216.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12983274/product/9780525657743.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422599/product/9780593243626.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13794760/product/9780593465271.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/14175924/product/9780316167581.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422576/product/9781642595253.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13362881/product/9780593138274.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13591008/product/9781250223180.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/1244324/product/9781984820365.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/affiliate_profiles/profile_images/14160/original/24296426_960771837424844_9119205732636571350_n.jpg?1600460877" alt="">
+                    <a href="" class="text m-lg-2">
+                        Labor/Class
+                    </a>
+                    <a class="more">VIEW LIST (17 BOOKS)</a>
+                </div>
+                <div class="list-book-infor">
+                    <div class="row">
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/12654477/mini/9781568589398.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Work Won't Love You Back: How Devotion to Our Jobs Keeps Us Exploited, Exhausted, and Alone</h2>
+                                    <h3 class="author">
+                                        Sarah Jaffe
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/4591633/mini/9780553447453.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Evicted: Poverty and Profit in the American City</h2>
+                                    <h3 class="author">
+                                        Matthew Desmond
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/8374483/mini/9781608465354.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Bananeras: Women Transforming the Banana Unions of Latin America</h2>
+                                    <h3 class="author">
+                                        Dana Frank
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-book-infor">
+                    <div class="row">
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/8356748/mini/9781608465200.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Poor Workers' Unions: Rebuilding Labor from Below (Completely Revised and Updated Edition) (Revised, Updated)</h2>
+                                    <h3 class="author">
+                                        Vanessa Tait
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/12599303/mini/9781541618343.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Worked Over: How Round-The-Clock Work Is Killing the American Dream</h2>
+                                    <h3 class="author">
+                                        Matthew Desmond
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4">
+                            <div class="row">
+                                <div class="col col-4">
+                                    <a href=""><img src="https://images-production.bookshop.org/spree/images/attachments/13540448/mini/9780525656098.jpg" alt=""></a>
+                                </div>
+                                <div class="col col-8">
+                                    <h2 class="infor">Finding the Mother Tree: Discovering the Wisdom of the Forest</h2>
+                                    <h3 class="author">
+                                        Suzanne Simard
+                                    </h3>
+                                    <div class="price row">
+                                        <span class="first-price"><del>$26.95</del></span>
+                                        <span class="last-price">$27.94</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-category-book">
+                <div class="title-book">
+                    <img src="https://images-production.bookshop.org/spree/curators/avatars/10/thumb/Social_media_Icon_alternative.jpg?1573251482" alt="">
+                    <a href="" class="text m-lg-2">
+                        Bookshop.org Best Sellers of the Week
+                    </a>
+                    <a class="more">VIEW LIST (15 BOOKS)</a>
+                </div>
+                <div class="list-book-img">
+                    <div class="list">
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13244489/product/Goodbye_Again_pb_c.JPG" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13175664/product/9780525555216.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/12983274/product/9780525657743.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422599/product/9780593243626.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13794760/product/9780593465271.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/14175924/product/9780316167581.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13422576/product/9781642595253.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13362881/product/9780593138274.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/13591008/product/9781250223180.jpg" alt="">
+                        </div>
+                        <div class="book flex-column">
+                            <img src="https://images-production.bookshop.org/spree/images/attachments/1244324/product/9781984820365.jpg" alt="">
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="list-product">
-        <div class="container">
-            <div class="row ">
-                <div class="col-sm-12 text-center">
-                    <h3>KLASSY WEEK</h3>
-                    <h2>This Week'S Special Meal Offers</h2>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4 list-menu-img">
-                    <div class="row">
-                        <div class="icon col-sm-4 col-md-4 text-center">
-                            <img src="https://20167063.github.io/cafe/assets/images/tab-icon-01.png " alt=" ">
-                            <h4>Breakfast</h4>
-                        </div>
-                        <div class="icon col-sm-4 col-md-4 text-center">
-                            <img src="https://20167063.github.io/cafe/assets/images/tab-icon-02.png " alt=" ">
-                            <h4>Lunch</h4>
-                        </div>
-                        <div class="icon col-sm-4 col-md-4 text-center">
-                            <img src="https://20167063.github.io/cafe/assets/images/tab-icon-03.png " alt=" ">
-                            <h4>Dinner</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="product-left col-sm-12 col-md-6">
-                    <div class="row">
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-01.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-02.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-03.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-righ col-sm-12 col-md-6">
-                    <div class="row">
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-04.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-05.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product col-sm-12 col-md-12">
-                            <div class="row">
-                                <div class="img-product col-xs-3">
-                                    <img src="https://20167063.github.io/cafe/assets/images/tab-item-06.png" alt="">
-                                </div>
-                                <div class="text-product col-xs-6">
-                                    <h4>Fresh Chicken </h4>
-                                    <p>Salad Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                </div>
-                                <div class="price-product col-xs-3">
-                                    <h2>$22</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
     <footer>
-        <div class="container">
-            <div class="icon-link col-md-4">
-                <ul class="list-group list-inline">
-                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-github" aria-hidden="true"></i> </li>
-                    <li><i class="fa fa-headphones" aria-hidden="true"></i></i>
-                    </li>
+        <div class="top-footer row">
+            <div class="text-infor col-2 offset-4">
+                <h1 class="text">Sign up for our Newsletter</h1>
+                <p>Tell us what books you love.</p>
             </div>
-            <div class="logo col-md-4">
-                <img src="https://20167063.github.io/cafe/assets/images/white-logo.png" alt="">
-            </div>
-            <div class="text col-md-4">
-                <h4>© Copyright Klassy Cafe C. <br> TemplateMo</h4>
+            <div class="sign-up col offset-1"><button>SIGN UP</button></div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-6">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">SUPPORT / HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">BECOME AN AFFILIATE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">GIFT CARDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">TERMS OF USE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">PRIVACY NOTICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">BOOKSHOP FOR AUTHORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">BOOKSHOP FOR BOOKSTORES</a>
+                            </li>
+                        </ul>
+                        <ul class="nav icon-bottom">
+                            <li>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="nav button">
+                            <li class="nav-item"><button>Sign-in</button></li>
+                            <li class="nav-item"><button>Sign-up</button></li>
+                        </ul>
+                    </div>
+                    <div class="col col-4 offset-2 text-center">
+                        <div class=" logo ">
+                            <img src="https://bookshop.org/assets/logo_light-c650cee1761bf7cfee9351767c3e098191eca1aeac77db1455aee5313383f2ef.svg " alt=" ">
+                            <p>SUPPORTING LOCAL BOOKSTORES</p>
+                        </div>
+                        <div>
+                            <form class="search "><input type="text " placeholder="Search "><button><img src="https://bookshop.org/assets/ic_search_red-7d1a13a60daff70bb90df7cef4d5255a11c09312ba796317f7b701327183cdaf.svg " alt=" "></button></form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    <div class="order" style="position: fixed;bottom:240px;right:30px">
-        <i class="fa fa-cart-arrow-down" aria-hidden="true"><span class="badge">4</span></i>
-    </div>
-    <!-- link bootstrap3 -->
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
 </body>
 
 </html>

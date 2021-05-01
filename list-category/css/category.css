@@ -1,0 +1,263 @@
+header nav.navbar {
+  background-color: white;
+}
+
+header nav.navbar .navbar-brand img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+header nav.navbar .navbar-text {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: GT Super Bold, serif;
+  color: #2b0f42;
+  letter-spacing: -0.6px;
+  line-height: 30px;
+  font-weight: bold;
+  width: 500px;
+  display: inline-block;
+}
+
+header nav.navbar ul {
+  padding-top: 10px;
+  list-style: none;
+}
+
+header nav.navbar ul li a {
+  font-family: "Orelega One", cursive;
+  font-size: 15px;
+  color: gray !important;
+}
+
+header nav.navbar ul li a i {
+  color: gray;
+  font-weight: 500;
+}
+
+header nav.navbar ul li:last-child a {
+  font-size: 25px;
+  padding-top: 4px;
+}
+
+.alert {
+  margin: 0 !important;
+}
+
+.total-infor {
+  border-width: 1px 0 1px 0;
+  border-color: gray;
+  border-style: solid;
+}
+
+.total-infor a {
+  display: inline-block;
+  padding: 5px;
+}
+
+div.img {
+  height: 450px;
+  background-color: #573ba3;
+  overflow: hidden;
+}
+
+div.img .list-img-book {
+  width: 900px;
+  height: 10000px;
+  padding-left: -200px;
+}
+
+div.img .list-img-book .list-book {
+  width: 180px;
+  height: 10000px;
+  transform: rotate(-38deg);
+  transform-origin: 0 0%;
+}
+
+div.img .list-img-book .list-book img {
+  width: 100%;
+}
+
+div.img .logo .text {
+  margin-top: 100px;
+  font-size: 17px;
+  color: white;
+}
+
+div.img .logo .img .col.col-3 {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 80px;
+  border-radius: 40px;
+  margin-left: 15px;
+}
+
+div.img .logo .img .col.col-3 img {
+  width: 55px;
+}
+
+div.img .logo .img .col.col-4 {
+  color: white;
+  margin-top: 40px;
+}
+
+main .title.text-center {
+  margin: 20px;
+}
+
+main .list-book {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+main .list-book .book {
+  margin-bottom: 50px;
+  width: 250px;
+  height: 533px;
+  margin-right: 9px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+main .list-book .book .img-book {
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 250px;
+  height: auto;
+  background-color: #ecebed;
+  height: 325px;
+}
+
+main .list-book .book .img-book img {
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 220px;
+  height: 305px;
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  transform-origin: 50% 50%;
+}
+
+main .list-book .book .img-book img:hover {
+  width: 223px;
+  height: 310px;
+}
+
+main .list-book .book .text-book .title {
+  font-size: 18px;
+  line-height: 1;
+  margin: 5px 4px;
+  font-weight: 400;
+  font-family: "Zen Dots", cursive;
+}
+
+main .list-book .book .text-book .author {
+  font-size: 15px;
+  margin: -1px 4px;
+  color: brown;
+  font-weight: 500;
+}
+
+main .list-book .book .text-book .price p {
+  font-size: 17px;
+  margin: 4px auto 3px 4px;
+  font-weight: 700;
+}
+
+main .list-book .book .text-book .price p del {
+  color: #de2454;
+}
+
+main .list-book .book .button-control button {
+  background-color: #de2454;
+  color: white;
+  padding: 5px 20px;
+  width: 90%;
+  margin: 8px auto 10px 5%;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+main .list-book .book .button-control button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer .bottom-footer {
+  padding: 70px !important;
+  background-color: #2b0f42;
+}
+
+footer .bottom-footer .nav.flex-column li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2;
+}
+
+footer .bottom-footer .nav.icon-bottom {
+  margin-top: 7px;
+}
+
+footer .bottom-footer .nav.icon-bottom li i {
+  color: white;
+  margin-right: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer .bottom-footer form.search {
+  padding: 5px 0px 5px 15px;
+  border-radius: 30px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  margin-top: 65px;
+  background-color: white;
+}
+
+footer .bottom-footer form.search input {
+  width: 230px;
+  height: 40px;
+  border: transparent;
+}
+
+footer .bottom-footer form.search button {
+  background-color: transparent;
+  border: none;
+}
+
+footer .bottom-footer form.search button img {
+  width: 40px;
+}
+
+footer .bottom-footer .logo p {
+  color: #837391;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+footer .bottom-footer .nav.button {
+  margin-top: 10px;
+}
+
+footer .bottom-footer .nav.button button {
+  background-color: #de2454;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 25px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
