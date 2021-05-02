@@ -71,6 +71,10 @@ main section .hero.container .search input {
   border: transparent;
 }
 
+main section .hero.container .search input:focus {
+  outline: none;
+}
+
 main section .hero.container .search button {
   background-color: transparent;
   border: none;

@@ -28,29 +28,15 @@ header nav.navbar ul li a i {
   color: gray !important;
 }
 
-main h2 {
-  font-weight: 500;
+main .center {
+  padding: 0 15px;
 }
 
-main h1 {
-  color: #2b0f42;
-  font-weight: 700;
+main .center li {
+  font-size: 15px;
+  font-family: monospace;
 }
 
-main .top .header span {
-  font-size: 30px;
-  color: #de2454 !important;
-}
-
-main .center .top {
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: 1px solid #e9e6ec;
-  background-color: #f6f5f7;
-  border-radius: 5px;
-}
-
-main .center .top p {
-  font-size: 13px;
-  font-family: 'Times New Roman', Times, serif;
+main .center h5 {
+  font-weight: 600;
 }

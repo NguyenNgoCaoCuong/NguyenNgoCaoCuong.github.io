@@ -58,26 +58,6 @@
   width: 174px;
 }
 
-.slide-category-book .list-book-img .button-control {
-  position: absolute;
-  width: 100%;
-  top: 40%;
-}
-
-.slide-category-book .list-book-img .button-control div {
-  z-index: 100;
-}
-
-.slide-category-book .list-book-img .button-control div:first-child {
-  margin-left: -33px;
-  float: left;
-}
-
-.slide-category-book .list-book-img .button-control div:last-child {
-  float: right;
-  margin-right: -33px;
-}
-
 .slide-category-book .list-book-infor {
   padding: 20px 0px 15px 0px;
   border-width: 0 0 1px 0;
