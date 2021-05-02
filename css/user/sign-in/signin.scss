@@ -1,0 +1,82 @@
+$font-famyli1:'Orelega One',
+cursive;
+$font-famyli2:'Zen Dots',
+cursive;
+$color-main:white;
+$color-text-category:#2b0f42;
+$color-text:#ffeee6;
+$background-color-button:#de2454;
+$background-footer-top:#ffeee6;
+$background-footer-bottom:#2b0f42;
+header {
+    nav.navbar {
+        // position: fixed;
+        .navbar-brand {
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+        }
+        .navbar-text {
+            text-decoration: none;
+            font-size: 25px;
+            font-family: GT Super Bold, serif;
+            color: #2b0f42;
+            letter-spacing: -0.6px;
+            line-height: 30px;
+            font-weight: bold;
+            width: 500px;
+            display: inline-block;
+        }
+        background-color: transparent!important;
+        ul {
+            li {
+                a {
+                    color: gray!important;
+                    i {
+                        color: gray!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    padding: 20px 20px;
+    background-color: #f6f5f7;
+    .form-register {
+        width: 100% / 2;
+        padding-bottom: 100px;
+        h1 {
+            font-family: GT Super Bold, serif;
+            font-size: 45px;
+            letter-spacing: -1px;
+            margin-bottom: 50px;
+            font-weight: 700;
+        }
+        form {
+            padding: 50px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid rgb(167, 154, 154);
+            .form-text {
+                font-size: 15px;
+                a {
+                    color: $background-color-button;
+                    text-decoration: none;
+                }
+            }
+            button[type="submit"] {
+                border-radius: 30px;
+                padding: 5px 25px;
+                font-weight: bold;
+                color: white;
+                background-color: $background-color-button;
+                border: none;
+                margin-top: 20px;
+            }
+        }
+    }
+}

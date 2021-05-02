@@ -1,0 +1,149 @@
+        $font-famyli1:'Orelega One',
+        cursive;
+        $font-famyli2:'Zen Dots',
+        cursive;
+        $color-main:white;
+        $color-text-category:#2b0f42;
+        $color-text:#ffeee6;
+        $background-color-button:#de2454;
+        $background-footer-top:#ffeee6;
+        $background-footer-bottom:#2b0f42;
+        header {
+            nav.navbar {
+                .navbar-brand {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                    }
+                }
+                .navbar-text {
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: GT Super Bold, serif;
+                    color: #2b0f42;
+                    letter-spacing: -0.6px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    width: 500px;
+                    display: inline-block;
+                }
+                background-color: transparent!important;
+                ul {
+                    li {
+                        a {
+                            color: gray!important;
+                            i {
+                                color: gray!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        section {
+            .container {
+                img {
+                    width: 100%;
+                    display: block;
+                }
+                position: relative;
+                &::after {
+                    content: '';
+                    background-image: url(https://images-production.bookshop.org/spree/affiliate_profiles/profile_images/24596/original/Author_Gurwitch_publicity_credit_David_Stewart.jpg?1618678930);
+                    background-size: cover;
+                    width: 100px;
+                    height: 100px;
+                    display: block;
+                    border-radius: 50px;
+                    position: absolute;
+                    bottom: 0;
+                    transform: translateY(50px);
+                    left: 30px;
+                    z-index: 10;
+                }
+            }
+            margin-bottom:100px;
+        }
+        
+        main {
+            .profile {
+                h1 {
+                    font-family: GT Super Bold, serif;
+                    font-size: 45px;
+                    letter-spacing: -1px;
+                    margin-bottom: 0.5rem;
+                    font-weight: 700;
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-family: $font-famyli2;
+                    letter-spacing: 0.3px;
+                    word-spacing: 2px;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    li {
+                        a {
+                            i {
+                                font-weight: 700;
+                                margin-right: 20px;
+                                font-size: 30px;
+                                color: $background-footer-bottom;
+                            }
+                        }
+                    }
+                    margin-bottom:30px;
+                }
+            }
+            .tp {
+                margin-top: 70px;
+            }
+        }
+        
+        .alert.more {
+            position: relative;
+            background-color: $background-color-button;
+            border-radius: 50px 0 0 0;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 30px 30px;
+            width: 300px;
+            img {
+                width: 240px;
+            }
+            h1 {
+                font-size: 30px;
+                margin-bottom: 20px;
+                color: white;
+                text-shadow: 0px 0px 21px rgba(150, 150, 150, 1);
+            }
+            button {
+                margin: 10px 0;
+                padding: 7px 20px;
+                border: none;
+                border-radius: 30px;
+                // box-shadow: ;
+                &:last-child {
+                    position: absolute;
+                    top: 0px;
+                }
+            }
+        }
+        /* Extra small devices (phones, 600px and down) */
+        
+        @media only screen and (max-width: 600px) {}
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        
+        @media only screen and (min-width: 600px) {}
+        /* Medium devices (landscape tablets, 768px and up) */
+        
+        @media only screen and (min-width: 768px) {}
+        /* Large devices (laptops/desktops, 992px and up) */
+        
+        @media only screen and (min-width: 992px) {}
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        
+        @media only screen and (min-width: 1200px) {}

@@ -1,0 +1,201 @@
+        $font-famyli1:'Orelega One',
+        cursive;
+        $font-famyli2:'';
+        $font-famyli3:'';
+        $color-main:white;
+        $color-text-category:#2b0f42;
+        $color-text:#ffeee6;
+        $background-color-button:#de2454;
+        $background-footer-top:#ffeee6;
+        $background-footer-bottom:#2b0f42;
+        header {
+            nav.navbar {
+                .navbar-brand {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                    }
+                }
+                .navbar-text {
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: GT Super Bold, serif;
+                    color: #2b0f42;
+                    letter-spacing: -0.6px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    width: 500px;
+                    display: inline-block;
+                }
+                background-color: transparent!important;
+                ul {
+                    li {
+                        a {
+                            color: gray!important;
+                            i {
+                                color: gray!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        main {
+            .alert {
+                margin: 0!important;
+            }
+            .total-infor {
+                border-width: 1px 0 1px 0;
+                border-color: gray;
+                border-style: solid;
+                a {
+                    display: inline-block;
+                    padding: 5px;
+                }
+            }
+            section {
+                margin-top: 50px;
+                .book {
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+                    }
+                    .title {
+                        margin-top: 20px;
+                        text-decoration: none;
+                        font-size: 34px;
+                        font-family: GT Super Bold, serif;
+                        color: #2b0f42;
+                        letter-spacing: -0.6px;
+                        line-height: 37px;
+                        font-weight: bold;
+                        width: 700px;
+                        display: inline-block;
+                    }
+                    .author {
+                        color: rgb(184, 167, 167);
+                        margin: 20px auto;
+                        span {
+                            color: green;
+                        }
+                    }
+                    .format {
+                        .title {
+                            color: red;
+                            margin: 0 0 15px 0;
+                            font-size: 23px;
+                        }
+                        .box {
+                            div.col {
+                                border-radius: 7px;
+                                border: 1px solid $color-text-category;
+                                box-sizing: border-box;
+                                width: 22%;
+                                margin-right: 15px;
+                                margin-left: 15px;
+                                padding: 15px 15px;
+                                box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.45);
+                                p {
+                                    color: blue;
+                                    margin: 2px;
+                                }
+                                span {
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                    del {
+                                        color: $background-color-button;
+                                        margin-right: 5px;
+                                    }
+                                }
+                                &:first-child {
+                                    background-color: rgb(181, 181, 231);
+                                }
+                            }
+                        }
+                    }
+                    .infor {
+                        padding-top: 20px;
+                        i {
+                            color: $background-color-button;
+                            margin-right: 5px;
+                        }
+                        span {
+                            color: $background-color-button;
+                            font-size: 20px;
+                        }
+                    }
+                    .buy {
+                        margin-top: 30px;
+                        button {
+                            img {
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 5px;
+                            }
+                            color: white;
+                            font-size: 17px;
+                            font-weight: 600;
+                            border-radius: 30px;
+                            text-transform:uppercase;
+                            padding: 6px 35px;
+                            text-decoration: none;
+                            box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.30);
+                        }
+                    }
+                }
+                .text-book {
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                    .col.col-3 {
+                        box-sizing: border-box;
+                        border: 5px solid gray;
+                        background-color: rgb(211, 194, 194);
+                        .top-mark {
+                            background-color: black;
+                            padding: 30px 15px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .col.col-12 {
+                            border-bottom: 1px solid red;
+                            &:nth-child(2) {
+                                text-align: center;
+                                h4 {
+                                    font-size: 19px;
+                                    padding-top: 12px;
+                                    color: darkgray;
+                                }
+                                h6 {
+                                    font-size: 11px;
+                                    padding: 10px;
+                                }
+                            }
+                            &:nth-child(3) {
+                                text-align: center;
+                                h4 {
+                                    font-size: 17px;
+                                    padding-top: 12px;
+                                    color: darkgray;
+                                    span {
+                                        color: red;
+                                    }
+                                }
+                                h1 {
+                                    font-size: 40px;
+                                    color: red;
+                                }
+                            }
+                            &:nth-child(5) {
+                                height: 400px;
+                                overflow: scroll;
+                            }
+                        }
+                    }
+                    .col.col-8 {}
+                }
+            }
+        }

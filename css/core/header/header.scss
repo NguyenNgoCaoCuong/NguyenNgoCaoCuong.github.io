@@ -1,0 +1,75 @@
+$font-famyli1:'Orelega One',
+cursive;
+$font-famyli2:'';
+$font-famyli3:'';
+$color-main:#573ba2;
+$color-text-category:#2b0f42;
+$color-text:#ffeee6;
+$background-color-button:#de2454;
+$background-footer-top:#ffeee6;
+$background-footer-bottom:#2b0f42;
+header {
+    nav.navbar {
+        background-color: $color-main;
+        ul {
+            padding-top: 10px;
+            list-style: none;
+            li {
+                a {
+                    font-family: $font-famyli1;
+                    font-size: 15px;
+                    color: white;
+                    i {
+                        color: white;
+                        font-weight: 500;
+                    }
+                }
+                &:last-child {
+                    a {
+                        font-size: 25px;
+                        padding-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.alert {
+    margin: 0!important;
+}
+
+.total-infor {
+    border-width: 1px 0 1px 0;
+    border-color: gray;
+    border-style: solid;
+    a {
+        display: inline-block;
+        padding: 5px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}

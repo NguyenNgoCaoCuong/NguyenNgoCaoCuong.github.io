@@ -1,0 +1,173 @@
+    $font-famyli1:'Orelega One',
+    cursive;
+    $font-famyli2:'Zen Dots',
+    cursive;
+    $color-main:white;
+    $color-text-category:#2b0f42;
+    $color-text:#ffeee6;
+    $background-color-button:#de2454;
+    $background-footer-top:#ffeee6;
+    $background-footer-bottom:#2b0f42;
+    header {
+        nav.navbar {
+            .navbar-brand {
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 30px;
+                }
+            }
+            .navbar-text {
+                text-decoration: none;
+                font-size: 25px;
+                font-family: GT Super Bold, serif;
+                color: #2b0f42;
+                letter-spacing: -0.6px;
+                line-height: 30px;
+                font-weight: bold;
+                width: 500px;
+                display: inline-block;
+            }
+            background-color: transparent!important;
+            ul {
+                li {
+                    a {
+                        color: gray!important;
+                        i {
+                            color: gray!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    main {
+        .title {
+            .text {
+                text-decoration: none;
+                font-size: 34px;
+                font-family: GT Super Bold, serif;
+                color: #2b0f42;
+                letter-spacing: -0.6px;
+                line-height: 37px;
+                font-weight: 900;
+                width: 980px;
+                margin-top: 30px;
+                margin-bottom: 60px;
+            }
+            button {
+                float: right;
+                background-color: $background-color-button;
+                color: white;
+                padding: 7px 13px;
+                border: none;
+                border-radius: 5px;
+                font-weight: 700;
+                display: block;
+            }
+        }
+        .item {
+            padding-top: 100px;
+            .table {
+                thead {}
+                tbody {
+                    td {
+                        img.img-book {
+                            width: 90%;
+                            box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+                            border-radius: 5px;
+                            height: 265px;
+                            margin: 10px 5%;
+                        }
+                        h3 {
+                            margin-bottom: 3px;
+                        }
+                        p {
+                            margin-bottom: 3px;
+                        }
+                        h5 {
+                            margin-bottom: 15px;
+                        }
+                        .icon {
+                            i {
+                                color: #1fa5a3;
+                                margin-right: 5px;
+                            }
+                            color: #1fa5a3;
+                        }
+                        input[type="number"] {
+                            width: 70%;
+                        }
+                        button {
+                            img {
+                                width: 15px;
+                                height: auto;
+                            }
+                            border: none;
+                            background-color:transparent;
+                        }
+                        p {
+                            font-size: 20px;
+                            font-weight: 700;
+                            del {
+                                color: $background-color-button;
+                            }
+                            color:gray;
+                        }
+                    }
+                }
+            }
+            .bottom-table {
+                margin-top: 20px;
+                float: right;
+                .total {
+                    font-size: 15px;
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                .img-bottom {
+                    margin-top: 15px;
+                    background-color: #ffeee6;
+                    padding: 20px 10px;
+                    border-radius: 5px;
+                    img {
+                        width: 40px;
+                        margin-right: 10px;
+                    }
+                    span {
+                        font-size: 17px;
+                        font-weight: 700;
+                        color: #2b0f42;
+                    }
+                }
+            }
+            .button {
+                font-size: 15px;
+                margin-top: 30px;
+                button {
+                    border-radius: 30px;
+                    padding: 5px 20px;
+                    font-weight: 700;
+                    margin-right: 10px;
+                    &:first-child {
+                        background-color: white;
+                        color: $background-color-button;
+                        border: 2px solid $background-color-button;
+                    }
+                    &:last-child {
+                        background-color: $background-color-button;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .end-item {
+            margin-top: 10px;
+            margin-bottom: 50px;
+            font-size: 15px;
+            color: $background-footer-bottom;
+            font-weight: bold;
+        }
+    }

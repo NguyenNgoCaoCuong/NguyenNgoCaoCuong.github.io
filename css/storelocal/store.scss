@@ -1,0 +1,182 @@
+$font-famyli1:'Orelega One',
+cursive;
+$font-famyli2:'Zen Dots',
+cursive;
+$color-main:white;
+$color-text-category:#2b0f42;
+$color-text:#ffeee6;
+$background-color-button:#de2454;
+$background-footer-top:#ffeee6;
+$background-footer-bottom:#2b0f42;
+body {
+    overflow-x: hidden;
+}
+
+header {
+    nav.navbar {
+        .navbar-brand {
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+        }
+        .navbar-text {
+            text-decoration: none;
+            font-size: 25px;
+            font-family: GT Super Bold, serif;
+            color: #2b0f42;
+            letter-spacing: -0.6px;
+            line-height: 30px;
+            font-weight: bold;
+            width: 500px;
+            display: inline-block;
+        }
+        background-color: transparent!important;
+        ul {
+            li {
+                a {
+                    color: gray!important;
+                    i {
+                        color: gray!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    background-color: #fbfbfb;
+    .first {
+        padding: 20px 0 20px 30px;
+        position: relative;
+        input {
+            padding-left: 30px;
+        }
+        a {
+            top: 28px;
+            left: 53px;
+            position: absolute;
+            i {
+                color: gray;
+            }
+        }
+        select {
+            width: 140px;
+            height: auto;
+        }
+    }
+    .last {
+        border-top: 1px solid rgb(212, 189, 189);
+        .col.col-4 {
+            background-color: white;
+            padding: 40px;
+            p {}
+            h5 {
+                margin: 25px auto;
+            }
+            input {
+                padding: 10px 7px;
+                background-color: rgb(218, 205, 205);
+                border-radius: 5px;
+                border: none;
+                display: block;
+                width: 70%;
+                margin-bottom: 20px;
+                &:focus {
+                    background-color: yellow;
+                }
+            }
+            button {
+                background-color: $background-color-button;
+                border-radius: 5px;
+                display: block;
+                color: white;
+                font-weight: bold;
+                padding: 7px 15px;
+                border: none;
+                margin-bottom: 30px;
+            }
+        }
+        .col.col-8 {
+            iframe {
+                width: 100%;
+                height: 500px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+// footer {
+//     .bottom-footer {
+//         padding: 70px!important;
+//         background-color: $background-footer-bottom;
+//         .nav.flex-column {
+//             li {
+//                 a {
+//                     color: white;
+//                     text-transform: uppercase;
+//                     text-decoration: none;
+//                     font-weight: bold;
+//                     font-size: 12px;
+//                     line-height: 2;
+//                 }
+//             }
+//         }
+//         .nav.icon-bottom {
+//             margin-top: 7px;
+//             li {
+//                 i {
+//                     color: white;
+//                     margin-right: 7px;
+//                     font-weight: bold;
+//                     font-size: 20px;
+//                 }
+//             }
+//         }
+//         form.search {
+//             padding: 5px 0px 5px 15px;
+//             border-radius: 30px;
+//             width: 300px;
+//             margin: auto;
+//             display: block;
+//             margin-top: 65px;
+//             background-color: white;
+//             input {
+//                 width: 230px;
+//                 height: 40px;
+//                 border: transparent;
+//             }
+//             button {
+//                 background-color: transparent;
+//                 border: none;
+//                 img {
+//                     width: 40px;
+//                 }
+//             }
+//         }
+//         .logo {
+//             p {
+//                 color: #837391;
+//                 font-weight: 700;
+//                 font-size: 13px;
+//             }
+//         }
+//         .nav.button {
+//             margin-top: 10px;
+//             button {
+//                 background-color: #de2454;
+//                 color: white;
+//                 text-transform: uppercase;
+//                 font-size: 13px;
+//                 font-weight: 600;
+//                 padding: 5px 25px;
+//                 border-radius: 30px;
+//                 margin-right: 10px;
+//             }
+//         }
+//     }
+// }
