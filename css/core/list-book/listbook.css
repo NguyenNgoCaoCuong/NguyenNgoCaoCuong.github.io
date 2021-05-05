@@ -36,26 +36,52 @@
 }
 
 .slide-category-book .list-book-img .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: auto;
 }
 
 .slide-category-book .list-book-img .list .book {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 3px 5px;
-  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
 }
 
 .slide-category-book .list-book-img .list .book img {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
   width: 170px;
   display: block;
 }
 
 .slide-category-book .list-book-img .list .book img:hover {
-  box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+          box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
   width: 174px;
+}
+
+.slide-category-book .list-book-img .button-control {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+
+.slide-category-book .list-book-img .button-control div {
+  z-index: 100;
+}
+
+.slide-category-book .list-book-img .button-control div:first-child {
+  margin-left: -33px;
+  float: left;
+}
+
+.slide-category-book .list-book-img .button-control div:last-child {
+  float: right;
+  margin-right: -33px;
 }
 
 .slide-category-book .list-book-infor {
@@ -71,13 +97,16 @@
 
 .slide-category-book .list-book-infor img {
   height: 190px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
-  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
 }
 
 .slide-category-book .list-book-infor img:hover {
-  box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+          box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
   height: 195px;
 }
 
@@ -120,3 +149,4 @@
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=listbook.css.map */

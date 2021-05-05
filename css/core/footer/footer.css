@@ -1,6 +1,5 @@
 footer .bottom-footer {
-  padding-top: 70px !important;
-  padding-bottom: 20px;
+  padding: 70px !important;
   background-color: #2b0f42;
 }
 
@@ -30,7 +29,7 @@ footer .bottom-footer form.search {
   width: 300px;
   margin: auto;
   display: block;
-  margin-top: 280px;
+  margin-top: 65px;
   background-color: white;
 }
 
@@ -56,7 +55,7 @@ footer .bottom-footer .logo p {
 }
 
 footer .bottom-footer .nav.button {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 footer .bottom-footer .nav.button a {
@@ -77,3 +76,4 @@ footer .bottom-footer .nav.button a {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=footer.css.map */

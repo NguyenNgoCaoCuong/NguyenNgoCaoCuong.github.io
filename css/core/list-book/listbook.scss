@@ -62,6 +62,22 @@ $background-footer-bottom:#2b0f42;
                 box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
             }
         }
+        .button-control {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            div {
+                z-index: 100;
+                &:first-child {
+                    margin-left: -33px;
+                    float: left;
+                }
+                &:last-child {
+                    float: right;
+                    margin-right: -33px;
+                }
+            }
+        }
     }
     .list-book-infor {
         &:last-child {

@@ -43,8 +43,10 @@ div.img .list-img-book {
 div.img .list-img-book .list-book {
   width: 180px;
   height: 10000px;
-  transform: rotate(-38deg);
-  transform-origin: 0 0%;
+  -webkit-transform: rotate(-38deg);
+          transform: rotate(-38deg);
+  -webkit-transform-origin: 0 0%;
+          transform-origin: 0 0%;
 }
 
 div.img .list-img-book .list-book img {
@@ -80,10 +82,15 @@ main .title.text-center {
 }
 
 main .list-book {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 main .list-book .book {
@@ -105,12 +112,15 @@ main .list-book .book .img-book {
 }
 
 main .list-book .book .img-book img {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 5px;
   width: 220px;
   height: 305px;
-  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
-  transform-origin: 50% 50%;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 main .list-book .book .img-book img:hover {
@@ -158,3 +168,4 @@ main .list-book .book .button-control button img {
   height: 20px;
   margin-right: 10px;
 }
+/*# sourceMappingURL=category.css.map */

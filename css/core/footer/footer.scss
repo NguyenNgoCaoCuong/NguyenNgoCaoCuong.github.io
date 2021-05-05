@@ -10,8 +10,7 @@ $background-footer-top:#ffeee6;
 $background-footer-bottom:#2b0f42;
 footer {
     .bottom-footer {
-        padding-top: 70px!important;
-        padding-bottom: 20px;
+        padding: 70px!important;
         background-color: $background-footer-bottom;
         .nav.flex-column {
             li {
@@ -42,7 +41,7 @@ footer {
             width: 300px;
             margin: auto;
             display: block;
-            margin-top: 280px;
+            margin-top: 65px;
             background-color: white;
             input {
                 width: 230px;
@@ -65,7 +64,7 @@ footer {
             }
         }
         .nav.button {
-            margin-top: 70px;
+            margin-top: 10px;
             a {
                 background-color: #de2454;
                 text-decoration: none;

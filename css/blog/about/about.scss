@@ -41,34 +41,3 @@ header {
         }
     }
 }
-
-main {
-    h2 {
-        font-weight: 500;
-    }
-    h1 {
-        color: #2b0f42;
-        font-weight: 700;
-    }
-    .top {
-        .header {
-            span {
-                font-size: 30px;
-                color: #de2454!important;
-            }
-        }
-    }
-    .center {
-        .top {
-            padding: 15px 20px;
-            border-radius: 10px;
-            border: 1px solid #e9e6ec;
-            background-color: #f6f5f7;
-            border-radius: 5px;
-            p {
-                font-size: 13px;
-                font-family: 'Times New Roman', Times, serif
-            }
-        }
-    }
-}
