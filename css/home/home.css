@@ -71,6 +71,10 @@ main section .hero.container .search input {
   border: transparent;
 }
 
+main section .hero.container .search input:focus {
+  outline: none;
+}
+
 main section .hero.container .search button {
   background-color: transparent;
   border: none;
@@ -138,31 +142,25 @@ main #main .slide-category-book .list-book-img {
 }
 
 main #main .slide-category-book .list-book-img .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: auto;
 }
 
 main #main .slide-category-book .list-book-img .list .book {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 3px 5px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
-          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
 }
 
 main #main .slide-category-book .list-book-img .list .book img {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 5px;
   width: 170px;
   display: block;
 }
 
 main #main .slide-category-book .list-book-img .list .book img:hover {
-  -webkit-box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
-          box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+  box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
   width: 174px;
 }
 
@@ -199,16 +197,13 @@ main #main .slide-category-book .list-book-infor:last-child {
 
 main #main .slide-category-book .list-book-infor img {
   height: 190px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
-          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
 }
 
 main #main .slide-category-book .list-book-infor img:hover {
-  -webkit-box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
-          box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
+  box-shadow: 0px 0px 29px 0px rgba(53, 62, 99, 0.65);
   height: 195px;
 }
 
@@ -271,4 +266,3 @@ footer .top-footer .sign-up button {
   padding: 3px 58px;
   font-weight: bold;
 }
-/*# sourceMappingURL=home.css.map */

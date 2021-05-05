@@ -50,8 +50,7 @@ main section {
 main section .book img {
   width: 100%;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
-          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.55);
 }
 
 main section .book .title {
@@ -85,14 +84,12 @@ main section .book .format .title {
 main section .book .format .box div.col {
   border-radius: 7px;
   border: 1px solid #2b0f42;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 22%;
   margin-right: 15px;
   margin-left: 15px;
   padding: 15px 15px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.45);
-          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.45);
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.45);
 }
 
 main section .book .format .box div.col p {
@@ -140,8 +137,7 @@ main section .book .buy button {
   text-transform: uppercase;
   padding: 6px 35px;
   text-decoration: none;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.3);
-          box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.3);
+  box-shadow: 0px 0px 12px 0px rgba(74, 50, 50, 0.3);
 }
 
 main section .book .buy button img {
@@ -156,8 +152,7 @@ main section .text-book {
 }
 
 main section .text-book .col.col-3 {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 5px solid gray;
   background-color: #d3c2c2;
 }
@@ -213,4 +208,3 @@ main section .text-book .col.col-3 .col.col-12:nth-child(5) {
   height: 400px;
   overflow: scroll;
 }
-/*# sourceMappingURL=book.css.map */

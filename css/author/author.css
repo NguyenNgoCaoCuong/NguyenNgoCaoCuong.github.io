@@ -51,8 +51,7 @@ section .container::after {
   border-radius: 50px;
   position: absolute;
   bottom: 0;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  transform: translateY(50px);
   left: 30px;
   z-index: 10;
 }
@@ -127,4 +126,3 @@ main .tp {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/*# sourceMappingURL=author.css.map */

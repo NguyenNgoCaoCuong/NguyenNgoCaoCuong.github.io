@@ -1,0 +1,157 @@
+        $font-famyli1:'Orelega One',
+        cursive;
+        $font-famyli2:'';
+        $font-famyli3:'';
+        $color-main:#573ba2;
+        $color-text-category:#2b0f42;
+        $color-text:#ffeee6;
+        $background-color-button:#de2454;
+        $background-footer-top:#ffeee6;
+        $background-footer-bottom:#2b0f42;
+        header {
+            nav.navbar {
+                .navbar-brand {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                    }
+                }
+                .navbar-text {
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: GT Super Bold, serif;
+                    color: #2b0f42;
+                    letter-spacing: -0.6px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    width: 500px;
+                    display: inline-block;
+                }
+                background-color: transparent!important;
+                ul {
+                    li {
+                        a {
+                            color: gray!important;
+                            i {
+                                color: gray!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        div.img {
+            height: 450px;
+            background-color: #573ba3;
+            .list-img-book {
+                transform: translateY(-500px);
+                width: 900px;
+                height: 10000px;
+                .list-book {
+                    img {
+                        width: 98%;
+                        margin: 10px 15px;
+                        border-radius: 10px;
+                        box-shadow: -1px -1px 14px 0px rgba(99, 255, 92, 0.75);
+                    }
+                    width: 180px;
+                    height: 10000px;
+                    transform: rotate(38deg) translateX(300px);
+                    transform-origin: 0 0%;
+                }
+                // transform:rotate(30deg);
+            }
+            .infor {
+                color: white;
+                padding: 100px;
+                margin-left: -170px;
+                h1 {
+                    font-weight: bold;
+                }
+                p {
+                    font-size: 20px;
+                    padding-right: 30px;
+                }
+                button {
+                    background-color: $background-color-button;
+                    color: white;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    padding: 5px 20px;
+                    border-radius: 30px;
+                    border: none;
+                }
+            }
+            overflow: hidden;
+        }
+        
+        main {
+            .container {
+                .row {
+                    .col.col-4 {
+                        padding: 25px;
+                        h3 {
+                            font-weight: 700px;
+                        }
+                        p {
+                            font-size: 18px;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+            .center {
+                background-color: #eae9ed;
+                padding: 60px 80px;
+                img {
+                    width: 98%;
+                }
+                h2 {
+                    margin-top: 170px;
+                    font-weight: 900;
+                }
+                ul {
+                    counter-increment: total 0;
+                    li {
+                        &::before {
+                            counter-increment: total;
+                            content: counter(total);
+                            width: 30px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            color: white;
+                            display: inline-block;
+                            border-radius: 15px;
+                            background-color: $color-main;
+                            margin-right: 8px;
+                        }
+                        line-height:40px;
+                    }
+                }
+            }
+            .bottom {
+                h1 {
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 18px;
+                    padding: 15px 30px;
+                }
+            }
+        }
+        
+        .img.bottom {
+            background-color: $background-footer-top;
+            .list-img-book {
+                transform: translateY(100px);
+                .col.col-3 {
+                    .list-book {
+                        box-shadow: 0;
+                        transform: rotate(-38deg) translateX(-50px) translateY(-200px);
+                    }
+                }
+            }
+        }
