@@ -1,0 +1,144 @@
+.text-common {
+  color: white !important;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: IBM Plex Sans Bold, sans-serif;
+}
+
+.text-common-nocolor {
+  font-size: 12px;
+  font-family: IBM Plex Sans Bold, sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  color: red;
+}
+
+/* css header */
+header i {
+  color: white;
+  font-size: 17px !important;
+  font-weight: bold;
+}
+
+header form {
+  height: 32px;
+}
+
+header form input {
+  width: 340px;
+  border: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 10px;
+}
+
+header form button {
+  border: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: white !important;
+}
+
+header form button i {
+  color: black !important;
+}
+
+header .contact-icons .nav-link {
+  padding-left: 10px !important;
+  padding-right: 2px !important;
+  font-weight: bold;
+}
+
+header .information-user {
+  margin-left: -70px;
+}
+
+header .information-user .nav-link {
+  padding-left: 25px !important;
+  padding-right: 3px !important;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+header .information-user img {
+  width: 25px;
+  margin-top: -12px;
+}
+
+/* end css header */
+/* css footer */
+footer .nav-link {
+  color: white !important;
+}
+
+footer .contact-icons .nav-link {
+  padding-right: 0px;
+}
+
+footer nav button {
+  width: 110px;
+  height: 45px;
+  border-radius: 30px !important;
+}
+
+footer h3 {
+  font-size: 12px;
+  color: #9587a1;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer .search-footer {
+  position: relative;
+  height: 100%;
+}
+
+footer .search-footer form {
+  position: absolute;
+  bottom: 0px;
+}
+
+footer .search-footer form input {
+  width: 240px;
+  border: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 10px;
+  padding: 21px;
+}
+
+footer .search-footer form button {
+  border: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: white !important;
+  width: 50px;
+}
+
+footer .search-footer form button i {
+  color: black !important;
+}
+
+footer .search-footer form button div {
+  width: 37px;
+  height: 37px;
+  border: 1px solid;
+  border-color: #de2454;
+  border-radius: 50%;
+  background: #de2454;
+}
+
+footer .search-footer form button div i {
+  margin-right: -1px;
+  margin-top: 9px;
+  color: white !important;
+  font-size: 20px;
+}
+
+/* end css footer */
+/*# sourceMappingURL=style.css.map */

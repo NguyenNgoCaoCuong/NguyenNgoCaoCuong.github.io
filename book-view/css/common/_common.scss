@@ -1,0 +1,24 @@
+$font-family: IBM Plex Sans Bold,
+sans-serif;
+@mixin text-common {
+    font-size: 12px;
+    font-family: $font-family;
+}
+
+.text-common {
+    color: white !important;
+    font-weight: bold;
+    @include text-common;
+}
+
+.text-common-nocolor {
+    @include text-common;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    color: red;
+}

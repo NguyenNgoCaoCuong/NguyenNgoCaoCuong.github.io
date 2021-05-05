@@ -1,0 +1,455 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content .font-topic {
+  font-family: GT Super Bold, serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.content .font-content-topic {
+  font-size: 16px;
+  font-family: IBM Plex Sans, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.content .alert-form {
+  background-color: #ffeee6 !important;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.content .alert-form .text-link {
+  text-align: center;
+}
+
+.content .alert-form .text-link a {
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content .digital-money {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  font-weight: 300;
+  font-family: IBM Plex Sans, sans-serif;
+}
+
+.content .digital-money p {
+  margin-bottom: 10px;
+}
+
+.content .digital-money p .digital {
+  color: #573ba3;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content .general-book {
+  width: 75%;
+  float: right;
+}
+
+.content .general-book .book {
+  width: 100%;
+}
+
+.content .general-book .image-book {
+  -webkit-box-shadow: 0px 6px 12px grey;
+          box-shadow: 0px 6px 12px grey;
+}
+
+.content .general-book .intro-book {
+  border: 2px solid black;
+  margin-top: 38px;
+}
+
+.content .general-book .intro-book .card {
+  font-family: Stymie-Reg;
+  text-transform: none;
+  line-height: 1.0em;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid red !important;
+}
+
+.content .general-book .intro-book .card .card-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 9px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.3em;
+  color: #6e6e6e;
+  margin-top: 20px;
+}
+
+.content .general-book .intro-book .card a {
+  width: 100%;
+  height: 84px;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.content .general-book .intro-book .card a img {
+  width: 80%;
+  text-align: center;
+}
+
+.content .general-book .intro-book .reviewer {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red !important;
+  text-align: center;
+}
+
+.content .general-book .intro-book .reviewer .question-review {
+  margin-top: 25px;
+}
+
+.content .general-book .intro-book .reviewer h3 {
+  font-family: univers_lts_std_ex;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.6em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.content .general-book .intro-book .reviewer h2 {
+  font-size: 40px;
+  color: #EC2D3A;
+  letter-spacing: 5px;
+}
+
+.content .general-book .widget-rating {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.content .general-book .widget-rating .nav img {
+  width: 8px;
+  height: auto;
+  margin: 5px;
+}
+
+.content .general-book .widget-rating .col-3 {
+  line-height: 1;
+}
+
+.content .general-book .widget-rating .topic {
+  font-size: 7px;
+  font-weight: normal;
+  margin-left: 10px;
+  font-family: univers_lts_std_ex;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.content .general-book .review-book {
+  height: 300px;
+  border-top: 1px solid red;
+}
+
+.content .general-book .review-book ::-webkit-scrollbar {
+  width: 0px;
+}
+
+.content .general-book .review-book .review {
+  padding: 11px;
+  overflow-y: scroll;
+  height: 100px;
+  overflow-y: scroll;
+  height: 280px;
+  margin-top: 12px;
+}
+
+.content .general-book .review-book .review .review-topic {
+  text-align: center;
+  font-size: 7.5px;
+  text-align: center;
+  font-family: univers_lts_std_ex;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #7B7B7B;
+}
+
+.content .general-book .review-book .review .review-topic .text-flex-shrink {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-style: italic;
+}
+
+.content .general-book .review-book .review .review-content {
+  font-family: baskerville;
+  font-size: 10pt;
+  letter-spacing: 0.015em;
+  line-height: 1.35em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #424242;
+}
+
+.content .general-book .advertisement h3 {
+  border-bottom: 2px solid grey !important;
+  text-align: center;
+  color: grey;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.content .general-book .advertisement img {
+  margin-left: -15px;
+}
+
+.content .content-review-book {
+  margin-left: 25px;
+  margin-top: 13px;
+  width: 83%;
+  padding-right: 0px !important;
+}
+
+.content .content-review-book .information-book .name-book {
+  font-size: 34px;
+  font-family: "GT Super Bold", serif;
+  letter-spacing: 0px;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.content .content-review-book .information-book .author {
+  color: #573ba3;
+  font-size: 15px;
+  margin-top: -5px;
+  font-family: "IBM Plex Sans SemiBold", sans-serif;
+}
+
+.content .content-review-book .information-book .author span {
+  color: grey;
+}
+
+.content .content-review-book .information-book .price-ralate-book h5 {
+  font-family: "IBM Plex Sans SemiBold", sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  letter-spacing: 0.025em;
+  font-weight: 530;
+}
+
+.content .content-review-book .information-book .price-ralate-book .button-price .col-4 {
+  padding-right: 0px;
+}
+
+.content .content-review-book .information-book .price-ralate-book .button-price .col-4 button {
+  width: 100%;
+  border: 1px solid #e1e1e3;
+  padding: 18px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.content .content-review-book .information-book .price-ralate-book .button-price .col-4 button h3 {
+  font-size: 18px;
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 3px;
+}
+
+.content .content-review-book .information-book .price-ralate-book .button-price .col-4 .active {
+  border: 2px solid #573ba3;
+  background-color: #f6f5f7;
+}
+
+.content .content-review-book .information-book .price-ralate-book .button-price .col-4 .active h3 {
+  color: #573ba3 !important;
+  font-weight: inherit;
+}
+
+.content .content-review-book .information-book .avalable-product {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #1fa5a3;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content .content-review-book .information-book .cart a button:hover {
+  background-color: #ffc0cb38;
+  -webkit-box-shadow: 1px 7px 13px 0px gray;
+          box-shadow: 1px 7px 13px 0px gray;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.content .content-review-book .information-book .cart .in_cart_button {
+  border: 2px solid red;
+  border-radius: 30px;
+  color: red;
+  width: 150px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.content .content-review-book .information-book .cart .in_cart_button img {
+  color: red;
+}
+
+.content .content-review-book .information-book .cart .add_to_withlist_button {
+  border: 2px solid #573ba3;
+  border-radius: 30px;
+  color: #573ba3;
+  width: 230px;
+  font-weight: bold;
+}
+
+.content .content-review-book .information-book .get-link-audio-book {
+  margin-top: 31px;
+}
+
+.content .content-review-book .information-book .get-link-audio-book li {
+  margin-top: 6px;
+}
+
+.content .content-review-book .information-book .get-link-audio-book li a {
+  text-decoration: none;
+  color: #573ba3 !important;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "IBM Plex Sans SemiBold", sans-serif;
+}
+
+.content .content-review-book .desciption-book .card .card-body .card-title p,
+.content .content-review-book .desciption-book .card .card-body .card-title em {
+  font-size: 16px;
+  font-family: IBM Plex Sans, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.content .content-review-book .product-detail {
+  margin-top: 30px;
+}
+
+.content .content-review-book .product-detail .col-9 {
+  margin-top: -6px;
+}
+
+.content .content-review-book .product-detail h5 {
+  text-align: right;
+  font-size: 14px;
+  color: gray;
+  font-family: IBM Plex Sans Medium, sans-serif;
+  line-height: 0.5;
+  margin-top: 6px;
+}
+
+.content .content-review-book .product-detail p {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 16px;
+  line-height: 0;
+}
+
+.content .content-review-book .product-detail .bisac-category {
+  font-family: GT Super Bold, serif;
+  font-size: 16px;
+}
+
+.content .content-review-book .product-detail .bisac-category a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.content .content-review-book .earn-promoting .card .card-body {
+  padding: 25px;
+}
+
+.content .content-review-book .earn-promoting .card .card-body p {
+  font-size: 17px;
+}
+
+.content .content-review-book .earn-promoting .card .card-body .card-title span {
+  text-transform: uppercase;
+  font-family: IBM Plex Sans SemiBold, sans-serif;
+  font-size: 16px;
+  color: #573ba3;
+  font-weight: bold;
+}
+
+.content .sale-book .product-sale-of-week img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  -webkit-box-shadow: 0 1px 4px 0 gray;
+          box-shadow: 0 1px 4px 0 gray;
+}
+
+.content .sale-book .product-sale-of-week .booklist-title {
+  font-family: GT Super Bold, serif;
+  color: #2b0f42;
+  font-size: 34px;
+  letter-spacing: -0.6;
+  line-height: 37px;
+  font-weight: bold;
+}
+
+.content .sale-book .product-sale-of-week .viewlist {
+  border: 1px solid #de2454;
+  background-color: #de2454;
+  color: white;
+  border-radius: 20px;
+  width: 210px;
+  -webkit-box-shadow: 1px 1px 5px 0px gray;
+          box-shadow: 1px 1px 5px 0px gray;
+  font-size: 15px;
+  font-family: IBM Plex Sans Bold, sans-serif;
+}
+
+.content .sale-book .list-product-sale-of-week {
+  overflow-x: scroll;
+}
+
+.content .sale-book .list-product-sale-of-week .item img {
+  width: 220px;
+  height: 310px;
+}
+
+.content .sale-book .list-product-sale-of-week .owl-carousel {
+  position: relative;
+}
+
+.content .sale-book .list-product-sale-of-week .owl-carousel .owl-nav button {
+  width: 37px;
+  height: 37px;
+  border: 1px solid;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+.content .sale-book .list-product-sale-of-week .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 0px;
+  top: 35%;
+  margin-left: 0px;
+}
+
+.content .sale-book .list-product-sale-of-week .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 0px;
+  top: 35%;
+  margin-right: 0px;
+}
+/*# sourceMappingURL=book.css.map */

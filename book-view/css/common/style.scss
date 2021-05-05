@@ -1,0 +1,121 @@
+@import 'common';
+
+/* css header */
+
+@mixin input_search( $width) {
+    width: $width;
+    border: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+}
+
+@mixin button_search() {
+    border: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white !important;
+    i {
+        color: black !important;
+    }
+}
+
+header {
+    i {
+        color: white;
+        font-size: 17px !important;
+        font-weight: bold;
+    }
+    form {
+        height: 32px;
+        input {
+            @include input_search(340px);
+        }
+        button {
+            @include button_search();
+        }
+    }
+    .contact-icons {
+        .nav-link {
+            padding-left: 10px !important;
+            padding-right: 2px !important;
+            font-weight: bold;
+        }
+    }
+    .information-user {
+        margin-left: -70px;
+        .nav-link {
+            padding-left: 25px !important;
+            padding-right: 3px !important;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+        img {
+            width: 25px;
+            margin-top: -12px;
+        }
+    }
+}
+
+
+/* end css header */
+
+
+/* css footer */
+
+footer {
+    .nav-link {
+        color: white !important;
+    }
+    .contact-icons {
+        .nav-link {
+            padding-right: 0px;
+        }
+    }
+    nav {
+        button {
+            width: 110px;
+            height: 45px;
+            border-radius: 30px !important;
+        }
+    }
+    h3 {
+        font-size: 12px;
+        color: #9587a1;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .search-footer {
+        position: relative;
+        height: 100%;
+        form {
+            position: absolute;
+            bottom: 0px;
+            input {
+                @include input_search(240px);
+                padding: 21px;
+            }
+            button {
+                @include button_search();
+                width: 50px;
+                div {
+                    width: 37px;
+                    height: 37px;
+                    border: 1px solid;
+                    border-color: #de2454;
+                    border-radius: 50%;
+                    background: #de2454;
+                    i {
+                        margin-right: -1px;
+                        margin-top: 9px;
+                        color: white !important;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* end css footer */
